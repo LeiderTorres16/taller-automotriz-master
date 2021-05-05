@@ -1,0 +1,24 @@
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netcoreapp3.1\Datos.deps.json
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netcoreapp3.1\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netcoreapp3.1\Entidad.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netcoreapp3.1\Entidad.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfo.cs
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CopyComplete
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netcoreapp3.1\Datos.pdb
+D:\Desktop\taller-automotriz-master\Datos\bin\Debug\netcoreapp3.1\Datos.deps.json
+D:\Desktop\taller-automotriz-master\Datos\bin\Debug\netcoreapp3.1\Datos.dll
+D:\Desktop\taller-automotriz-master\Datos\bin\Debug\netcoreapp3.1\Datos.pdb
+D:\Desktop\taller-automotriz-master\Datos\bin\Debug\netcoreapp3.1\Entidad.dll
+D:\Desktop\taller-automotriz-master\Datos\bin\Debug\netcoreapp3.1\Entidad.pdb
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.csprojAssemblyReference.cache
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfoInputs.cache
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.AssemblyInfo.cs
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CoreCompileInputs.cache
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.csproj.CopyComplete
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.dll
+D:\Desktop\taller-automotriz-master\Datos\obj\Debug\netcoreapp3.1\Datos.pdb
