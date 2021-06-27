@@ -1,27 +1,27 @@
 <div class="container">
     <p style="text-align: center;"><b> AGENDAR CITA</b></p>
     <hr>
-    
-     <form class="row g-3" [formGroup]="formGroup">
+
+    <form class="row g-3" [formGroup]="formGroup">
         <div class="col-md-6">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="nombre" formControlName="nombre" >
+            <input type="text" class="form-control" name="nombre" formControlName="nombre"  >
         </div>
         <div class="col-md-6">
             <label for="apellido" class="form-label">Apellido</label>
             <input type="text" class="form-control" name="apellido" formControlName="apellido">
         </div>
         <div class="col-4">
-            <label for="identificacion" class="form-label">Numero de cedula</label>
+            <label for="identificacion" class="form-label">Numero de Cedula</label>
             <input type="text" class="form-control" name="identificacion" formControlName="identificacion">
         </div>
         <div class="col-8">
             <label for="telefono" class="form-label">Telefono</label>
-            <input type="number" class="form-control" name="telefono" formControlName="telefono">
+            <input type="text" class="form-control" name="telefono" formControlName="telefono">
         </div>
         <div class="col-2">
             <label for="edad" class="form-label">Edad</label>
-            <input type="text" class="form-control" name="edad" formControlName="edad">
+            <input type="number" class="form-control" name="edad" formControlName="edad">
         </div>
         <div class="col-md-4">
             <label for="sexo" class="form-label">Sexo</label>
@@ -50,7 +50,8 @@
             <input type="text" class="form-control" name="color" formControlName="color">
         </div>
         <div class="col-12">
-            <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="formGroup.invalid">Agendar</button>
+            <button type="submit" class="btn btn-primary" (click)="onSubmit()"
+                [disabled]="formGroup.invalid">Agendar</button>
         </div>
     </form>
     <hr>

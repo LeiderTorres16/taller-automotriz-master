@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Entidad;
 using DetalleCliente.Models;
 
-namespace Cliente.Controllers
+namespace CitaCliente.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

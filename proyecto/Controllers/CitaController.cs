@@ -1,11 +1,13 @@
 using System.Linq;
+using System.Collections.Generic;
 using System;
 using Logica;
 using Datos;
+using Entidad;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using CitaCliente.Models;
-using Entidad;
+
 
 namespace CitaCliente.Controllers
 {
@@ -37,7 +39,7 @@ namespace CitaCliente.Controllers
 
         private Cita MapearCita(CitaInputModel citaInputModel)
         {
-           var cita= new Cita()
+           var Cita= new Cita()
            {
               ClienteId=citaInputModel.Cliente.Identificacion,
               Cliente=new Cliente{Identificacion=citaInputModel.Cliente.Identificacion, 
@@ -48,7 +50,7 @@ namespace CitaCliente.Controllers
               Marca=citaInputModel.Vehiculo.Marca},
               fecha=citaInputModel.fecha
            };
-           return cita;   
+           return Cita;   
 
         }
 

@@ -1,0 +1,4 @@
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\publish\Entidad.dll
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\publish\Entidad.deps.json
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\publish\Entidad.pdb
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\publish\System.ComponentModel.Annotations.dll

@@ -1,5 +1,5 @@
 export class Cliente {
-    identificacion: string;
+    identificacion:string;
     nombre:string; 
     apellido:string; 
     edad: number;

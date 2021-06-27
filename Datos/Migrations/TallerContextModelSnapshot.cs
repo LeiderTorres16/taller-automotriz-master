@@ -69,6 +69,37 @@ namespace Datos.Migrations
                     b.ToTable("Clientes");
                 });
 
+            modelBuilder.Entity("Entidad.Detalle", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Cliente_ID")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Id_Servicio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ServicioId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("ValorUnitario")
+                        .HasColumnType("float");
+
+                    b.Property<string>("clienteIdentificacion")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ServicioId");
+
+                    b.HasIndex("clienteIdentificacion");
+
+                    b.ToTable("Detalles");
+                });
+
             modelBuilder.Entity("Entidad.Empleado", b =>
                 {
                     b.Property<string>("Identificacion")
@@ -133,6 +164,34 @@ namespace Datos.Migrations
                     b.ToTable("Servicios");
                 });
 
+            modelBuilder.Entity("Entidad.User", b =>
+                {
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MobilePhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserName");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("Entidad.Vehiculo", b =>
                 {
                     b.Property<string>("Placa")
@@ -173,6 +232,21 @@ namespace Datos.Migrations
                     b.Navigation("Cliente");
 
                     b.Navigation("Vehiculo");
+                });
+
+            modelBuilder.Entity("Entidad.Detalle", b =>
+                {
+                    b.HasOne("Entidad.Servicio", "Servicio")
+                        .WithMany()
+                        .HasForeignKey("ServicioId");
+
+                    b.HasOne("Entidad.Cliente", "cliente")
+                        .WithMany()
+                        .HasForeignKey("clienteIdentificacion");
+
+                    b.Navigation("cliente");
+
+                    b.Navigation("Servicio");
                 });
 
             modelBuilder.Entity("Entidad.Vehiculo", b =>

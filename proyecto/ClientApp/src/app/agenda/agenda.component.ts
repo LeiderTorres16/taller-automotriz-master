@@ -26,6 +26,8 @@ export class AgendaComponent implements OnInit {
 
   private buildForm() {
     this.cita = new Cita();
+    this.cita.cliente= new Cliente();
+    this.cita.vehiculo= new SoloVehiculo();
     this.cita.fecha = new Date();
     this.cita.cliente.identificacion = '';
     this.cita.cliente.nombre = '';
@@ -69,7 +71,7 @@ export class AgendaComponent implements OnInit {
   }
 
   onSubmit() {
-    debugger;
+
     if (this.formGroup.invalid) {
       return;
     }
@@ -79,8 +81,9 @@ export class AgendaComponent implements OnInit {
 
 
   add(){
-    this.cita = this.formGroup.value;
+   
     this.cliente= new Cliente();
+    this.vehiculo= new SoloVehiculo();
 
     this.cliente.identificacion=this.control.identificacion.value;
     this.cliente.nombre=this.control.nombre.value;

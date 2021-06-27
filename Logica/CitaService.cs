@@ -17,26 +17,26 @@ namespace Logica
         {
             try
             {
-                /*var tercero = _context.Terceros.Find(pago.Tercero.TerceroId);
-                if (tercero == null)
-                {
-                    _context.Terceros.Add(pago.Tercero);
-
-                }
-                pago.Tercero = tercero;
-                _context.Pagos.Add(pago);
-                _context.SaveChanges();*/
+                
 
                 var cliente = _context.Clientes.Find(cita.Cliente.Identificacion);
                 var vehiculo = _context.Vehiculos.Find(cita.Vehiculo.Placa);
                 if(cliente == null){
                     _context.Clientes.Add(cita.Cliente);
-                    if(vehiculo == null){
-                      _context.Vehiculos.Add(cita.Vehiculo);
-                    }
+                }else{
+                     cita.Cliente=cliente;
                 }
-                cita.Cliente=cliente;
-                cita.Vehiculo=vehiculo;
+
+                if(vehiculo==null)
+                    {
+                        _context.Vehiculos.Add(cita.Vehiculo);
+
+                    }else{
+                        cita.Vehiculo=vehiculo;
+                    }
+                
+               
+                
                 _context.Citas.Add(cita);
                 _context.SaveChanges();
 

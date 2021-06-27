@@ -16,3 +16,12 @@ D:\Desktop\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.Asse
 D:\Desktop\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.csproj.CoreCompileInputs.cache
 D:\Desktop\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.dll
 D:\Desktop\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.pdb
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\bin\Debug\netcoreapp3.1\Entidad.deps.json
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\bin\Debug\netcoreapp3.1\Entidad.dll
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\bin\Debug\netcoreapp3.1\Entidad.pdb
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.csprojAssemblyReference.cache
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.AssemblyInfoInputs.cache
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.AssemblyInfo.cs
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.csproj.CoreCompileInputs.cache
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.dll
+D:\Desktop\Proyectos Visual Code\taller-automotriz-master\Entidad\obj\Debug\netcoreapp3.1\Entidad.pdb

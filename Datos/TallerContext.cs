@@ -18,5 +18,7 @@ namespace Datos
         public DbSet<Vehiculo> Vehiculos { get; set; }
         public DbSet<Cita> Citas { get; set; } 
         public DbSet<Detalle> Detalles { get; set; } 
+        public DbSet<User> Users { get; set; }
+
     }
 }

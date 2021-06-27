@@ -5746,11 +5746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\taller-automotriz-master\\Logica\\Logica.csproj",
+      "projectUniqueName": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Logica\\Logica.csproj",
       "projectName": "Logica",
-      "projectPath": "D:\\Desktop\\taller-automotriz-master\\Logica\\Logica.csproj",
+      "projectPath": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Logica\\Logica.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\taller-automotriz-master\\Logica\\obj\\",
+      "outputPath": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Logica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5767,11 +5767,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Desktop\\taller-automotriz-master\\Datos\\Datos.csproj": {
-              "projectPath": "D:\\Desktop\\taller-automotriz-master\\Datos\\Datos.csproj"
+            "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Datos\\Datos.csproj": {
+              "projectPath": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Datos\\Datos.csproj"
             },
-            "D:\\Desktop\\taller-automotriz-master\\Entidad\\Entidad.csproj": {
-              "projectPath": "D:\\Desktop\\taller-automotriz-master\\Entidad\\Entidad.csproj"
+            "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Entidad\\Entidad.csproj": {
+              "projectPath": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Entidad\\Entidad.csproj"
             }
           }
         }

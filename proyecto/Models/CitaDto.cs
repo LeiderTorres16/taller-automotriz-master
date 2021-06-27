@@ -8,7 +8,6 @@ namespace CitaCliente.Models
     {
         public ClienteInputModel Cliente { get; set; }
         public SoloVehiculoInputModel Vehiculo { get; set; }
-        
         public DateTime fecha { get; set; }
 
     }

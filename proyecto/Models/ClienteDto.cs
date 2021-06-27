@@ -1,7 +1,6 @@
 using System;
 using Entidad;
 
-
 namespace CitaCliente.Models
 {
     public class ClienteInputModel
@@ -23,7 +22,7 @@ namespace CitaCliente.Models
 
     public class ClienteViewModel: ClienteInputModel
     {
-        public ClienteViewModel(Entidad.Cliente cliente)
+        public ClienteViewModel(Cliente cliente)
         {
             Identificacion=cliente.Identificacion;
             Nombre=cliente.Nombre;

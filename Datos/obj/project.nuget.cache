@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5OWW1lu9txym3wwOdxp+tYeHzCFIIOCiTV/ZlRObAUNGmU7f2I8YacjRh6SSmqHoAo5GTKSOGpMZ+7O75khYnA==",
+  "dgSpecHash": "hHodhT5oR2KczQJHaCniLh8QtL7xi7yqsVqy6Hh8VUzTLt2fbx84b7QRIiupjUbn2CLeTtsawSaYiyi0FFX98g==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\taller-automotriz-master\\Datos\\Datos.csproj",
+  "projectFilePath": "D:\\Desktop\\Proyectos Visual Code\\taller-automotriz-master\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
